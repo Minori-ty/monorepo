@@ -9,6 +9,7 @@
         "preview": "vite preview"
     },
     "dependencies": {
-        "@web/api": "workspace:^"
+        "@web/api": "workspace:^",
+        "@web/components": "workspace:^"
     }
 }

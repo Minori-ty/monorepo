@@ -1,10 +1,10 @@
 <template>
-    <HW msg="111" />
+    <Index />
 </template>
 
 <script setup lang="ts">
 import { getList } from '@web/api/code'
-import HW from '@components/HelloWorld.vue'
+import Index from '@web/components/Code/Index.vue'
 
 getList(1)
 </script>
