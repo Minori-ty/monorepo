@@ -32,9 +32,6 @@ importers:
 
   packages/app/back:
     dependencies:
-      '@web/api':
-        specifier: workspace:^
-        version: link:../../api
       '@web/components':
         specifier: workspace:^
         version: link:../../components
@@ -45,7 +42,11 @@ importers:
         specifier: workspace:^
         version: link:../../api
 
-  packages/components: {}
+  packages/components:
+    dependencies:
+      '@web/api':
+        specifier: workspace:^
+        version: link:../api
 
 packages:
 
