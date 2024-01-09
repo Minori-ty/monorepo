@@ -15,6 +15,9 @@ importers:
         specifier: ^3.2.45
         version: 3.4.7(typescript@4.9.5)
     devDependencies:
+      '@types/node':
+        specifier: ^20.10.7
+        version: 20.10.7
       '@vitejs/plugin-vue':
         specifier: ^4.0.0
         version: 4.6.2(vite@4.5.1)(vue@3.4.7)
@@ -23,7 +26,7 @@ importers:
         version: 4.9.5
       vite:
         specifier: ^4.1.0
-        version: 4.5.1
+        version: 4.5.1(@types/node@20.10.7)
       vue-tsc:
         specifier: ^1.0.24
         version: 1.8.27(typescript@4.9.5)
@@ -274,6 +277,12 @@ packages:
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
 
+  /@types/node@20.10.7:
+    resolution: {integrity: sha512-fRbIKb8C/Y2lXxB5eVMj4IU7xpdox0Lh8bUPEdtLysaylsml1hOOx1+STloRs/B9nf7C6kPRmmg/V7aQW7usNg==}
+    dependencies:
+      undici-types: 5.26.5
+    dev: true
+
   /@vitejs/plugin-vue@4.6.2(vite@4.5.1)(vue@3.4.7):
     resolution: {integrity: sha512-kqf7SGFoG+80aZG6Pf+gsZIVvGSCKE98JbiWqcCV9cThtg91Jav0yvYFC9Zb+jKetNGF6ZKeoaxgZfND21fWKw==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -281,7 +290,7 @@ packages:
       vite: ^4.0.0 || ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.5.1
+      vite: 4.5.1(@types/node@20.10.7)
       vue: 3.4.7(typescript@4.9.5)
     dev: true
 
@@ -593,7 +602,11 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
 
-  /vite@4.5.1:
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+    dev: true
+
+  /vite@4.5.1(@types/node@20.10.7):
     resolution: {integrity: sha512-AXXFaAJ8yebyqzoNB9fu2pHoo/nWX+xZlaRwoeYUxEqBO+Zj4msE5G+BhGBll9lYEKv9Hfks52PAF2X7qDYXQA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -621,6 +634,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 20.10.7
       esbuild: 0.18.20
       postcss: 8.4.33
       rollup: 3.29.4

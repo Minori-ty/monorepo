@@ -1,10 +1,11 @@
 <template>
-    <div>123</div>
+    <HW msg="111" />
 </template>
 
 <script setup lang="ts">
 import { getList } from '@web/api/code'
-import { ref } from 'vue'
+import HW from '@components/HelloWorld.vue'
+
 getList(1)
 </script>
 

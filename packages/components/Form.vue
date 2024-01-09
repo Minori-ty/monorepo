@@ -4,6 +4,7 @@
 
 <script setup lang="ts">
 import { getList } from '@web/api/code'
+
 getList(1)
 </script>
 
