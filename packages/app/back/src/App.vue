@@ -1,8 +1,8 @@
 <template>
-    <div>
-        <Form />
-        {{ data }}
-    </div>
+  <div>
+    <Form />
+    {{ data }}
+  </div>
 </template>
 
 <script setup lang="ts">

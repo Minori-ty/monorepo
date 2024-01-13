@@ -3,7 +3,7 @@
     "composite": true,
     "incremental": true,
     "declaration": true,
-    "declarationMap": true,
+    "declarationMap": false,
     "noEmitOnError": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -15,6 +15,5 @@
       "@/*": ["src/*"],
       "@components/*": ["src/components/*"]
     }
-  },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  }
 }

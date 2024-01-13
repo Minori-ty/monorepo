@@ -9,6 +9,6 @@ export const request = axios.create()
  * @returns 返回id
  */
 export function getList(id: number, params?: { page?: number }) {
-    console.log(id, params)
-    return id
+  console.log(id, params)
+  return id
 }

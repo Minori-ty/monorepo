@@ -1,8 +1,8 @@
 {
-    "name": "@web/components",
-    "private": true,
-    "version": "0.0.1",
-    "dependencies": {
-        "@web/api": "workspace:^"
-    }
+  "name": "@web/components",
+  "private": true,
+  "version": "0.0.1",
+  "dependencies": {
+    "@web/api": "workspace:^"
+  }
 }
