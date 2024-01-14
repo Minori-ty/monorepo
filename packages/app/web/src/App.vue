@@ -11,9 +11,10 @@ getList(1)
 
 <style scoped lang="scss">
 .main {
-  padding: 10px;
-  color: red;
   width: 100px;
   height: 100px;
+  padding: 10px;
+  color: red;
+  cursor: pointer;
 }
 </style>

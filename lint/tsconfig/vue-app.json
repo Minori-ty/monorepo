@@ -1,0 +1,9 @@
+{
+  "display": "Vue Application",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "lib": ["ESNext", "DOM"],
+    "noImplicitAny": false
+  }
+}
