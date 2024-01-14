@@ -1,5 +1,5 @@
 <template>
-  <CodeIndex :data="{}" />
+  <CodeIndex data="123" />
 </template>
 
 <script setup lang="ts">

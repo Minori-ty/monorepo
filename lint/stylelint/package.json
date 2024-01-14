@@ -4,8 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "pnpm unbuild --stub",
-    "postinstall": "pnpm run build"
+    "stub": "pnpm unbuild --stub"
   },
   "exports": {
     ".": {
