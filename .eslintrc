@@ -1,4 +1,7 @@
 {
   "root": true,
-  "extends": ["@web/eslint-config"]
+  "extends": ["@web/eslint-config"],
+  "rules": {
+    "no-undef": "off"
+  }
 }

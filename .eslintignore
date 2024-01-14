@@ -6,3 +6,19 @@ pnpm-workspace.yaml
 
 !.vocode
 package.json
+
+tsconfig.json
+
+
+*.sh
+*.md
+*.woff
+*.ttf
+.vscode
+.idea
+/public
+/docs
+.husky
+.local
+/bin
+Dockerfile

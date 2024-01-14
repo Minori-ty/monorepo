@@ -1,12 +1,19 @@
 <template>
-  <Index />
+  <CodeIndex :data="{}" />
 </template>
 
 <script setup lang="ts">
 import { getList } from '@web/api/code'
-import Index from '@web/components/Code/Index.vue'
+import CodeIndex from '@web/components/Code/Index.vue'
 
 getList(1)
 </script>
 
-<style scoped></style>
+<style scoped lang="less">
+.main {
+  color: red;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+</style>

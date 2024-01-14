@@ -16,5 +16,5 @@
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "extends": "../../../tsconfig.base.json",
-  "references": [{ "path": "./tsconfig.node.json" }, { "path": "../../components" }, { "path": "../../api" }]
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
