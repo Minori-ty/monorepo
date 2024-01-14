@@ -29,7 +29,7 @@ export default {
     'no-case-declarations': 'off',
     'no-use-before-define': 'off',
     'space-before-function-paren': 'off',
-
+    indent: ['error', 2],
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',

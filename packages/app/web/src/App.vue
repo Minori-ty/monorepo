@@ -9,11 +9,11 @@ import CodeIndex from '@web/components/Code/Index.vue'
 getList(1)
 </script>
 
-<style scoped lang="less">
+<style scoped lang="scss">
 .main {
+  padding: 10px;
   color: red;
   width: 100px;
   height: 100px;
-  padding: 10px;
 }
 </style>
