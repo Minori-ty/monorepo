@@ -30,7 +30,7 @@ importers:
       '@web/eslint-config':
         specifier: workspace:*
         version: link:lint/eslint
-      '@web/stylelint-config-my':
+      '@web/stylelint-config':
         specifier: workspace:^
         version: link:lint/stylelint
       cz-conventional-changelog:

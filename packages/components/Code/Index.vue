@@ -8,4 +8,9 @@ defineProps<{
 }>()
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.main {
+  width: 100px;
+  height: 400px;
+}
+</style>
